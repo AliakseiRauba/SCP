@@ -1,0 +1,47 @@
+﻿ID: rau_backend
+_schema-version: 3.1.0
+version: 1.0.0
+
+modules:
+    -
+        name: rau_db
+        type: hdb
+        path: db
+        provides:
+            - {name: rau_db, public: true}
+        parameters:
+            memory: 256M
+            disk-quota: 256M
+        requires:
+            - {name: rau_hdi}
+    -
+        name: rau_srv
+        type: nodejs
+        path: srv
+        properties:
+            XS_APP_LOG_LEVEL: debug
+        parameters:
+            memory: 256M
+            disk-quota: 1024M
+        provides:
+            - {name: rau_srv, public: true, properties: {url: '${default-url}'}}
+        requires:
+            - {name: rau_db}
+            - {name: rau_hdi}
+            - {name: rau_uaa}
+            - {name: rau_dest}
+            - {name: rau_conn}
+
+resources:
+    -
+        name: rau_hdi
+        type: org.cloudfoundry.existing-service
+    -
+        name: rau_uaa
+        type: org.cloudfoundry.existing-service
+    -
+        name: rau_dest
+        type: org.cloudfoundry.existing-service
+    -
+        name: rau_conn
+        type: org.cloudfoundry.existing-service

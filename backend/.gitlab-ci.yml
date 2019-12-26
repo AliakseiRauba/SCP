@@ -1,0 +1,26 @@
+stages:
+  - build
+  - deploy
+
+
+cache:
+  paths:
+   - backend.mtar
+
+build:
+  image: ppiper/mta-archive-builder:latest
+  stage: build
+  script:
+    - mtaBuild  --mtar=backend.mtar --build-target=CF build
+  tags:
+    - lplan
+
+deploy:
+  image: ppiper/cf-cli
+  stage: deploy
+  before_script:
+    - cf login -a https://api.cf.eu10.hana.ondemand.com -u "v.shmidty@yandex.by" -p "ID67585011."
+  script:
+    - cf deploy backend.mtar -f
+  tags:
+    - lplan

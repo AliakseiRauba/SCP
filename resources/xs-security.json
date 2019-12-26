@@ -1,0 +1,5 @@
+{
+  "xsappname": "HiMTA",
+  "tenant-mode": "dedicated",
+  "description": "Security profile of called application"
+}
