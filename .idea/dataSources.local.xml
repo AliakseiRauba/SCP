@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SCP Data Source" uuid="e6e4b0ee-6914-48db-89e1-5ef743e8a76d">
+      <database-info product="HDB" version="2.00.040.00.1563450557" jdbc-version="4.3" driver-name="HDB" driver-version="2.3.62-36d7ec847f72c87e66ab41323b25ab504c730892" dbms="UNKNOWN" exact-version="2.0" exact-driver-version="2.3">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>session</secret-storage>
+      <user-name>RAU_SCP_AZ2OD98KMLI7VS58HQZVQE3SQ_RT</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

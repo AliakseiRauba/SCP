@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="SCP Data Source" uuid="e6e4b0ee-6914-48db-89e1-5ef743e8a76d">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.sap.db.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:sap://zeus.hana.prod.eu-central-1.whitney.dbaas.ondemand.com:23803?encrypt=true&amp;validateCertificate=true&amp;currentschema=RAU_SCP</jdbc-url>
+    </data-source>
+  </component>
+</project>

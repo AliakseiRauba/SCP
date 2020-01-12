@@ -1,34 +1,34 @@
-using User as _User from '../db/User';
-using Address as _Address from '../db/ExtraInfo';
-using Cars as _Cars from '../db/ExtraInfo';
+using Employee as _Employee from '../db/Employee';
+using Info as _Info from '../db/Info_Employee';
+using Task as _Task from '../db/Info_Employee';
 
 service odata {
 
-  entity Users @(
-		title: 'Users',
+  entity Employee @(
+		title: 'Employees',
 		Capabilities: {
 			InsertRestrictions: {Insertable: false},
 			UpdateRestrictions: {Updatable: false},
 			DeleteRestrictions: {Deletable: false}
 		}
-	) as projection on _User;
+	) as projection on _Employee;
 
-  entity Address @(
-		title: 'Address',
+  entity Info @(
+		title: 'Information',
 		Capabilities: {
 			InsertRestrictions: {Insertable: false},
 			UpdateRestrictions: {Updatable: false},
 			DeleteRestrictions: {Deletable: false}
 		}
-	) as projection on _Address;
+	) as projection on _Info;
 
-    entity Cars @(
-		title: 'Cars',
+    entity Task @(
+		title: 'Tasks',
 		Capabilities: {
 			InsertRestrictions: {Insertable: false},
 			UpdateRestrictions: {Updatable: false},
 			DeleteRestrictions: {Deletable: false}
 		}
-	) as projection on _Cars;
+	) as projection on _Task;
 
 }

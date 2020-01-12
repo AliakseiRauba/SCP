@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SCP Data Source">
+  <database-model serializer="dbm" dbms="UNKNOWN" family-id="UNKNOWN" format-version="4.17">
+    <root id="1">
+      <ServerVersion>2.0</ServerVersion>
+      <DefaultCasing>upper</DefaultCasing>
+    </root>
+    <database id="2" parent="1">
+      <Current>1</Current>
+    </database>
+    <schema id="3" parent="2" name="RAU_SCP">
+      <Current>1</Current>
+    </schema>
+    <schema id="4" parent="2" name="RAU_SCP_AZ2OD98KMLI7VS58HQZVQE3SQ_RT"/>
+    <schema id="5" parent="2" name="SYS"/>
+    <schema id="6" parent="2" name="_SYS_BI"/>
+    <schema id="7" parent="2" name="_SYS_REPO"/>
+    <schema id="8" parent="2" name="_SYS_RT"/>
+    <schema id="9" parent="2" name="_SYS_SQL_ANALYZER"/>
+    <schema id="10" parent="2" name="_SYS_TASK"/>
+    <table id="11" parent="3" name="EMPLOYEE"/>
+    <table id="12" parent="3" name="INFO"/>
+    <table id="13" parent="3" name="TASK"/>
+    <view id="14" parent="3" name="ODATA_EMPLOYEE"/>
+    <view id="15" parent="3" name="ODATA_INFO"/>
+    <view id="16" parent="3" name="ODATA_TASK"/>
+    <column id="17" parent="11" name="EMID">
+      <Position>1</Position>
+      <DataType>NVARCHAR(4)|-9s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="11" name="NAME">
+      <Position>2</Position>
+      <DataType>NVARCHAR(100)|-9s</DataType>
+    </column>
+    <key id="19" parent="11" name="_SYS_TREE_CS_#7066177_#0_#P0">
+      <ColNames>EMID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="20" parent="12" name="IFID">
+      <Position>1</Position>
+      <DataType>NVARCHAR(4)|-9s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="12" name="EMID">
+      <Position>2</Position>
+      <DataType>NVARCHAR(4)|-9s</DataType>
+    </column>
+    <column id="22" parent="12" name="CITY">
+      <Position>3</Position>
+      <DataType>NVARCHAR(100)|-9s</DataType>
+    </column>
+    <column id="23" parent="12" name="STREET">
+      <Position>4</Position>
+      <DataType>NVARCHAR(100)|-9s</DataType>
+    </column>
+    <column id="24" parent="12" name="EXPERIENCE">
+      <Position>5</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <column id="25" parent="12" name="AGE">
+      <Position>6</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <key id="26" parent="12" name="_SYS_TREE_CS_#7066158_#0_#P0">
+      <ColNames>IFID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="27" parent="13" name="TSID">
+      <Position>1</Position>
+      <DataType>NVARCHAR(4)|-9s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="13" name="EMID">
+      <Position>2</Position>
+      <DataType>NVARCHAR(4)|-9s</DataType>
+    </column>
+    <column id="29" parent="13" name="DESCRIPTION">
+      <Position>3</Position>
+      <DataType>NVARCHAR(100)|-9s</DataType>
+    </column>
+    <key id="30" parent="13" name="_SYS_TREE_CS_#7066169_#0_#P0">
+      <ColNames>TSID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="31" parent="14" name="EMID">
+      <Position>1</Position>
+      <DataType>NVARCHAR(4)|-9s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="14" name="NAME">
+      <Position>2</Position>
+      <DataType>NVARCHAR(100)|-9s</DataType>
+    </column>
+    <column id="33" parent="15" name="IFID">
+      <Position>1</Position>
+      <DataType>NVARCHAR(4)|-9s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="15" name="EMID">
+      <Position>2</Position>
+      <DataType>NVARCHAR(4)|-9s</DataType>
+    </column>
+    <column id="35" parent="15" name="CITY">
+      <Position>3</Position>
+      <DataType>NVARCHAR(100)|-9s</DataType>
+    </column>
+    <column id="36" parent="15" name="STREET">
+      <Position>4</Position>
+      <DataType>NVARCHAR(100)|-9s</DataType>
+    </column>
+    <column id="37" parent="15" name="EXPERIENCE">
+      <Position>5</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <column id="38" parent="15" name="AGE">
+      <Position>6</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <column id="39" parent="16" name="TSID">
+      <Position>1</Position>
+      <DataType>NVARCHAR(4)|-9s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="16" name="EMID">
+      <Position>2</Position>
+      <DataType>NVARCHAR(4)|-9s</DataType>
+    </column>
+    <column id="41" parent="16" name="DESCRIPTION">
+      <Position>3</Position>
+      <DataType>NVARCHAR(100)|-9s</DataType>
+    </column>
+  </database-model>
+</dataSource>

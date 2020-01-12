@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c894f64-fd82-4e94-8fd7-ff6f04e4558a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SCP Data Source" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SCP Data Source" type="feb32156:DbDataSourceImpl" />
+        <item name="#1: database" type="23e365eb:GenericImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SCP Data Source" type="feb32156:DbDataSourceImpl" />
+        <item name="#1: database" type="23e365eb:GenericImplModel$Database" />
+        <item name="RAU_SCP: schema" type="255a0c4b:GenericImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SCP Data Source" type="feb32156:DbDataSourceImpl" />
+        <item name="#1: database" type="23e365eb:GenericImplModel$Database" />
+        <item name="RAU_SCP: schema" type="255a0c4b:GenericImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SCP Data Source" type="feb32156:DbDataSourceImpl" />
+        <item name="#1: database" type="23e365eb:GenericImplModel$Database" />
+        <item name="RAU_SCP: schema" type="255a0c4b:GenericImplModel$Schema" />
+        <item name="views" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ProjectId" id="1W1av06dwOv8IWfrxOW2X3iUf40" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Telegram Desktop/ngdbc-2.3.62.jar" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/db" />
+      <recent name="$PROJECT_DIR$/backend/db/src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c894f64-fd82-4e94-8fd7-ff6f04e4558a" name="Default Changelist" comment="" />
+      <created>1578319784327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578319784327</updated>
+      <workItem from="1578319792693" duration="7406000" />
+      <workItem from="1578328604059" duration="388000" />
+      <workItem from="1578329414535" duration="5128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="150" y="158" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578333137421">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="150" y="158" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.948@67.27.1853.948" timestamp="1578333137421" />
+    <state x="107" y="157" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.891.939@67.27.891.939" timestamp="1578322911475" />
+    <state x="267" y="300" width="658" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578325598529">
+      <screen x="67" y="27" width="1068" height="939" />
+    </state>
+    <state x="267" y="300" width="658" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1068.939@67.27.1068.939" timestamp="1578325598529" />
+    <state x="290" y="253" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578322895058">
+      <screen x="67" y="27" width="891" height="939" />
+    </state>
+    <state x="290" y="253" width="424" height="484" key="FileChooserDialogImpl/67.27.891.939@67.27.891.939" timestamp="1578322895058" />
+    <state x="90" y="130" key="SettingsEditor" timestamp="1578325962017">
+      <screen x="67" y="27" width="1068" height="939" />
+    </state>
+    <state x="90" y="130" key="SettingsEditor/67.27.1068.939@67.27.1068.939" timestamp="1578325962017" />
+    <state x="895" y="397" width="377" height="228" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1578329952885">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="895" y="397" width="377" height="228" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/67.27.1853.948@67.27.1853.948" timestamp="1578329952885" />
+    <state x="649" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1578329416650">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="649" y="328" key="com.intellij.ide.util.TipDialog/67.27.1853.948@67.27.1853.948" timestamp="1578329416650" />
+  </component>
+</project>
