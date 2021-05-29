@@ -22,7 +22,7 @@
     "request": "^2.88.0",
     "request-promise": "latest",
     "then-request": "latest",
-    "ws": "^6.1.4"
+    "ws": "^7.4.6"
   },
   "engines": {
     "node": "8.x",
